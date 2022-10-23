@@ -3,7 +3,7 @@ title: "Forth Post"
 date: "2022-10-22"
 image: "forth-post.jpg"
 excerpt: Lorem culpa duis nisi laborum elit et.
-isFeatured: true
+isFeatured: false
 ---
 
 # This is a title for forth post
