@@ -9,3 +9,5 @@ isFeatured: true
 # This is a title for a first post
 
 Id eu minim ipsum consectetur. [link](https://google.com)
+
+![Et eiusmod culpa dolore cupidatat esse esse commodo velit commodo.](/images/posts/first-post/first-post.jpg)
