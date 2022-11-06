@@ -1,3 +1,5 @@
+import Head from "next/head";
+import { Fragment } from "react";
 import PostContent from "../../components/post-detail/post-content/post-content";
 import {
   getPostData,
@@ -8,7 +10,15 @@ import {
 function SinglePostPage(props) {
   const { post } = props;
 
-  return <PostContent post={post} />;
+  return (
+    <Fragment>
+      <Head>
+        <title>{post.title}</title>
+        <meta name="description" content={post.excerpt} />
+      </Head>
+      <PostContent post={post} />
+    </Fragment>
+  );
 }
 
 export function getStaticProps(context) {
